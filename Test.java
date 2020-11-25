@@ -29,7 +29,7 @@ public class Test {
 	
 	 public static String getUserListJson() throws IOException {
     	 String userlist = "";
-		 System.out.println("diocane");
+		 System.out.println("ciao");
 
     		 String base = "https://api.streamelements.com/kappa/v2/points/5ed619e4ccbc2295774d13a4/alltime?"+
     		 "limit="+limit+"&offset="+offset+"&authorization="+token;
