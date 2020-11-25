@@ -1,7 +1,7 @@
 
 
 
-package porcodididio;
+package com;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -19,10 +19,13 @@ import org.json.JSONObject;
 
 public class Test {
 	
-	static String token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNWVkNjE5ZTRjY2JjMjI1MTU5NGQxM2EzIiwicm9sZSI6Im93bmVyIiwiY2hhbm5lbCI6IjVlZDYxOWU0Y2NiYzIyOTU3NzRkMTNhNCIsInByb3ZpZGVyIjoidHdpdGNoIiwiYXV0aFRva2VuIjoiWVkzMkJ3T2JXeVlVVURMb0RCMTAzT1VjbGFvY1FlbmVqUGVvV29MZUU5eTZLMi1MIiwiaWF0IjoxNjAzODM2MTIzLCJpc3MiOiJTdHJlYW1FbGVtZW50cyJ9.qv5U-Y_hpKnLtD117xRgJ-0wTCzGkoZhXMgQOvrorG0";
+	static String token = "qui il token";
 
+	//qui i vari parametri richiesti dal servizio(in questo caso streamelements) da aggiungere nel url
 	static String limit="1000";
 	static String offset="32";
+	
+	
 	
 	 public static String getUserListJson() throws IOException {
     	 String userlist = "";
